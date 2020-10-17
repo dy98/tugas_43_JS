@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Event Mouse</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+    
+        <button type="submit">History Forward</button>
+
+        <script>
+
+            const tombolPergi = document.querySelector('button');
+
+            tombolPergi.addEventListener('click', function() {
+                history.forward();
+            })
+
+        </script>
+    </body>
+</html>
